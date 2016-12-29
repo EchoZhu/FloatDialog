@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="permission_manager_item_title">隐私顾问</string>
+    <string name="call_sms_blocker_item_title">骚扰拦截</string>
+    <string name="main_avtivity_mobile_security">安全</string>
+    <string name="permission_total_default_description">权限管理可以控制应用对个人信息的访问权限</string>
+    <string name="permission_title_call">拨打电话</string>
+    <string name="permission_summary_call">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以拨打电话</string>
+    <string name="permission_title_send_sms">读取或发送短信</string>
+    <string name="permission_summary_send_sms">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以读取、修改或发送短信</string>
+    <string name="permission_title_phone_number">电话号码</string>
+    <string name="permission_summary_phone_number">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以读取电话号码</string>
+    <string name="permission_title_contacts">读取联系人数据</string>
+    <string name="permission_summary_contacts">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以读取联系人数据</string>
+    <string name="permission_title_read_sms">读取短信</string>
+    <string name="permission_summary_read_sms">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以读取短信</string>
+    <string name="permission_title_read_call">读取通话记录</string>
+    <string name="permission_summary_read_call">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以读取通话记录</string>
+    <string name="permission_title_read_loc">位置服务</string>
+    <string name="permission_summary_read_loc">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以访问位置服务</string>
+    <string name="permission_title_read_device">设备信息</string>
+    <string name="permission_summary_read_device">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 个应用可以读取设备信息</string>
+    <string name="permission_list_dialog_message">安全卸载 %1$s？</string>
+    <string name="permission_details_title">权限详情</string>
+    <string name="permission_des_call">允许应用拨打电话</string>
+    <string name="permission_des_send_sms">允许应用读取或发送短信</string>
+    <string name="permission_des_phone_number">允许应用读取电话号码</string>
+    <string name="permission_des_contacts">允许应用读取用户联系数据</string>
+    <string name="permission_des_read_sms">允许应用读取短信</string>
+    <string name="permission_des_read_call">允许应用读取通话记录</string>
+    <string name="permission_des_read_loc">允许应用获取精确位置（如 GPS）</string>
+    <string name="permission_des_read_device">允许应用读取设备信息</string>
+    <string name="permission_detail_app_summary">申请了 &lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt; 项权限</string>
+    <string name="block_tab_calls">拦截的电话</string>
+    <string name="block_tab_sms">拦截的短信</string>
+    <string name="block_tab_blacklist">黑名单</string>
+    <string name="block_blacklist_add">添加</string>
+    <string name="block_details_title">拦截详情</string>
+    <string name="block_unknown">未知</string>
+    <string name="block_details_by_all">全部</string>
+    <string name="block_details_by_call">电话</string>
+    <string name="block_details_by_sms">短信</string>
+    <string name="block_call_empty">拦截的电话将在此处显示</string>
+    <string name="block_sms_empty">拦截的短信将在此处显示</string>
+    <string name="block_blacklist_empty">添加至黑名单</string>
+    <string name="block_details_no_logs">没有拦截的记录</string>
+    <string name="block_details_no_call">没有拦截的电话</string>
+    <string name="block_details_no_sms">没有拦截的短信</string>
+    <string name="block_select_contacts">从联系人添加</string>
+    <string name="block_select_calllog">从通话记录添加</string>
+    <string name="block_select_contacts_empty">无联系人</string>
+    <string name="black_list_add_dialog_title">添加黑名单</string>
+
+    <string-array name="black_list_add_titles">
+        <item>从通话记录添加</item>
+        <item>从短信记录添加</item>
+        <item>从联系人添加</item>
+        <item>手动输入号码</item>
+    </string-array>
+
+    <string name="block_select_sms">从短信记录添加</string>
+    <string name="block_select_sms_empty">无短信记录</string>
+    <string name="diagnostic_security_content_device">设备</string>
+    <string name="manual_add_title">添加黑名单</string>
+    <string name="black_list_manuallly_add_number">号码</string>
+    <string name="black_list_manuallly_add_name">姓名（可选）</string>
+    <string name="black_list_manuallly_add_number_empty">请输入有效号码</string>
+    <string name="black_list_manually_add_empty_number_toast">@string/black_list_manuallly_add_number_empty</string>
+    <string name="black_list_add_successed">添加成功</string>
+    <string name="black_list_add_toomany_contacts">您最多可以添加 100 个联系人到黑名单</string>
+    <string name="black_list_remove_dialog_title">确认选中？</string>
+    <string name="black_list_remove_dialog_message">确定从黑名单中删除 %1$s 吗？</string>
+    <string name="black_list_remove_successed">删除成功</string>
+    <string name="block_select_calllog_empty">无通话记录</string>
+    <string name="block_select_add">添加到黑名单 (%d)</string>
+    <string name="block_select_add_zero">添加到黑名单</string>
+    <string name="notification_block_call_message">已拦截 %1$s 个电话</string>
+    <string name="notification_block_sms_message">已拦截 %1$s 条短信</string>
+    <string name="notification_block_call_and_sms_message">已拦截 %1$s 个电话,%2$s 条短信</string>
+    <string name="antivirus_item_title">防病毒</string>
+    <string name="antivirus_setting_ignore_list">已忽略</string>
+    <string name="antivirus_setting_auto_scan_new_app">自动扫描新应用</string>
+    <string name="antivirus_setting_auto_update_virus_lib">自动更新病毒数据库</string>
+    <string name="antivirus_setting_manually_update_virus_lib">更新病毒数据库</string>
+    <string name="antivirus_setting_manually_update_virus_lib_summary">版本：%s</string>
+    <string name="antivirus_quick_scan">快速扫描</string>
+    <string name="antivirus_scan_prepare_summary_default">检查恶意软件和病毒</string>
+    <string name="antivirus_check">查看</string>
+    <string name="antivirus_scan_from_sd_card">扫描 SD 卡</string>
+    <string name="antivirus_scanning_summary">首次扫描可能需要较长时间</string>
+    <string name="antivirus_engine_summary">全球第一杀毒引擎彻底查杀恶意应用</string>
+    <string name="antivirus_malware">恶意软件</string>
+    <string name="antivirus_high_risk">高风险</string>
+    <string name="antivirus_low_risk">低风险</string>
+    <string name="result_safe_summary">提高安全性，立即试用</string>
+    <string name="back_scanned_safe_title">手机状态安全</string>
+    <string name="back_scanned_safe_summary">点击查看详情</string>
+    <string name="back_scanned_has_anti_title">检测病毒</string>
+    <string name="virus_details_title">详细信息</string>
+    <string name="virus_details_virus">病毒</string>
+    <string name="virus_details_virus_behaver">风险描述</string>
+    <string name="virus_details_virus_permissions">隐私</string>
+    <string name="ignore_summary">将不会扫描忽略列表中的应用</string>
+    <string name="scan_in_back_notify">病毒扫描正在后台运行…</string>
+    <string name="new_install_scanned_is_safe">%1$s 安全</string>
+    <string name="privacy_theft">隐私窃取</string>
+    <string name="malicious_payments">恶意扣费</string>
+    <string name="remote_control">远程控制</string>
+    <string name="malware_spreading">恶意传播</string>
+    <string name="usage_expense">资费消耗</string>
+    <string name="system_damage">系统破坏</string>
+    <string name="deception_fraud">诱骗欺诈</string>
+    <string name="rogue_behavior">流氓行为</string>
+    <string name="result_safe_scan_sdcard">@string/antivirus_scan_from_sd_card</string>
+    <string name="antivirus_restore">恢复</string>
+    <string name="ignore_list">忽略列表</string>
+    <string name="setting_ignore_list_empty_summary">空</string>
+    <string name="setting_ignore_list_summary">%s 个应用</string>
+    <string name="setting_lib_checking_for_update">检查更新</string>
+    <string name="av_lib_update_failed">更新失败，请稍候重试</string>
+    <string name="av_lib_update_latest">数据库已经是最新</string>
+    <string name="ignore_dialog_message">确定忽略 %s?</string>
+    <string name="introduction_img5_vice_title">保护您的设备</string>
+    <string name="introduction_img5_title">安全卫士</string>
+    <string name="introduction_img5_des">全球第一引擎，为您保驾护航</string>
+    <string name="virus_scan_app_name">正在扫描：%1$s...</string>
+    <string name="result_app_antivirus_found_title">&lt;font color=\"#ff764b\"&gt;%1$s&lt;/font&gt; 个应用包含病毒</string>
+    <string name="result_sdcard_antivirus_found_title">&lt;font color=\"#ff764b\"&gt;%1$s&lt;/font&gt; 个文件包含病毒</string>
+    <string name="initializing_scan_engine">初始化病毒扫描引擎...</string>
+    <string name="antivirus_last_scan_today">上次扫描：今天</string>
+    <string name="antivirus_delete_file_dialog_message">确定删除 %1$s ?</string>
+    <string name="antivirus_last_scan">上一次扫描: %s 天以前</string>
+    <string name="result_antivirus_found">%1$s 个病毒</string>
+    <string name="av_lib_update_success">更新成功</string>
+    <string name="init_scan_engine_fail">初始化失败，请再试一次</string>
+    <!-- add in 1.7.0 -->
+    <string name="scan_sdcard_wait_for_too_long">文件太多了，请稍候…</string>
+    <string name="virus_summary_text">发现病毒</string>
+    <!-- add in 2.0 -->
+    <string name="introduction_img6_title">网速测试</string>
+    <string name="introduction_img6_vice_title">专业的实时网速测试</string>
+    <string name="introduction_img6_des">即时测试您的移动网络或Wi-Fi的网速</string>
+    <string name="cancel_scan_game_dialog_msg">游戏加速可将游戏运行速度提升 30%，确定要取消扫描？</string>
+    <string name="sms_call_delete_all_msg">无法恢复已经删除的记录！</string>
+
+    <array name="permission_specified_des_call">
+        <item>可能被用于拨打未授权呼叫</item>
+        <item>可能会让您损失高额费用</item>
+    </array>
+    <array name="permission_specified_des_send_sms">
+        <item>可能会造成隐私泄露或损失高额费用</item>
+    </array>
+    <array name="permission_specified_des_phone_number">
+        <item>可能会被用于获取您的电话号码并将其透漏给第三方公司，造成隐私泄露或是更大的损失</item>
+    </array>
+    <array name="permission_specified_des_contacts">
+        <item>可能会被用于删除您的联系人信息并将其透漏给第三方公司，造成隐私泄露或是更大的损失</item>
+    </array>
+    <array name="permission_specified_des_read_sms">
+        <item>可能会被用于删除或读取您的短信并将其透漏给第三方公司</item>
+        <item>可能会造成隐私泄露或是更大的损失</item>
+    </array>
+    <array name="permission_specified_des_read_call">
+        <item>可能会被用于删除或读取您的日志并将其透漏给第三方公司</item>
+        <item>可能会造成隐私泄露或是更大的损失</item>
+    </array>
+    <array name="permission_specified_des_read_loc">
+        <item>可能会被用于识别您的位置，根据您的位置发送广告或是透漏隐私信息</item>
+        <item>可能会造成更大的损失</item>
+    </array>
+    <array name="permission_specified_des_read_device">
+        <item>可能会被用于读取设备上的信息并将其透漏给第三方公司</item>
+        <item>可能会造成隐私泄露或是更大的损失</item>
+    </array>
+
+    <string name="scan_app_safe_result_summary">扫描 &lt;font color=&quot;#b2f145&quot;&gt;%1$s&lt;/font&gt; 个应用，未发现病毒</string>
+    <string name="scan_sdcard_safe_result_summary">扫描 &lt;font color=&quot;#b2f145&quot;&gt;%1$s&lt;/font&gt; 个文件，未发现病毒</string>
+    <string name="scan_safe">安全</string>
+    <string name="antivirus_rescan">重新扫描</string>
+    <string name="cancel_scanning">停止扫描</string>
+    <string name="cancel_scanning_dialog_message">正在扫描病毒，确认停止？</string>
+    <string name="space_common_msg_no_sdcard">未找到SD卡，请检查</string>
+    <string name="virus_app">病毒应用</string>
+    <string name="virus_files">病毒文件</string>
+    <string name="permission_title_access_accounts">获取账户信息</string>
+    <string name="permission_summary_access_accounts">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt;  个应用可以获取账户信息</string>
+    <string name="permission_title_take_photos">拍照或摄像</string>
+    <string name="permission_summary_take_photos">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt;  个应用可以使用相机拍照或摄像</string>
+    <string name="permission_title_record_audio">录音</string>
+    <string name="permission_summary_record_audio">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt;  个应用能够获得你的录音权限</string>
+    <string name="permission_title_read_send_sms"> 读取或发送短信</string>
+    <string name="permission_summary_read_send_sms">&lt;font color=\"#b2f145\"&gt;%1$s&lt;/font&gt;  个应用可以读取、修改或发送短信</string>
+    <string name="permission_des_access_accounts">允许应用获取账户信息</string>
+    <string name="permission_des_take_photos">允许应用拍照或录像</string>
+    <string name="permission_des_record_audio">允许应用录音</string>
+    <string name="permission_des_read_send_sms">允许应用读取或发送短信</string>
+
+    <array name="permission_specified_des_access_accounts">
+        <item>可能使用已有账户进行身份验证</item>
+        <item>可能会造成隐私泄露或是更大的损失</item>
+    </array>
+    <array name="permission_specified_des_take_photos">
+        <item>能够控制您的照相机使用权限</item>
+        <item>可能会泄露您的私人信息</item>
+    </array>
+    <array name="permission_specified_des_record_audio">
+        <item>可能被用于通话录音</item>
+        <item>可能会造成隐私泄露或是更大的损失</item>
+    </array>
+    <array name="permission_specified_des_read_send_sms">
+        <item> 可能会造成隐私泄露或损失高额费用</item>
+    </array>
+
+</resources>

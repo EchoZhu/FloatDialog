@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_list_item_app_icon_size">48dp</dimen>
+    <dimen name="common_list_item_two_line_first_top_margin">6dp</dimen>
+    <dimen name="enter_page_animation_margin_top">202dp</dimen>
+    <dimen name="main_page_grid_item_padding_bottom">30dp</dimen>
+    <dimen name="auto_scroll_speed">11dp</dimen>
+    <dimen name="auto_scroll_left_speed">12dp</dimen>
+    <dimen name="auto_scroll_right_speed">10dp</dimen>
+    <dimen name="about_rate_mail_margin">30dp</dimen>
+    <dimen name="battery_item_title_summary_margin">2dp</dimen>
+    <dimen name="battery_icon_title_margin">27dp</dimen>
+    <dimen name="battery_button_margin_top">25dp</dimen>
+    <dimen name="battery_button_margin_bottom">15dp</dimen>
+    <dimen name="battery_icon_margin_top">84dp</dimen>
+    <dimen name="spaceship_translate_distance">325dp</dimen>
+    <dimen name="desktop_spaceship_lensflare_margin_top">87dp</dimen>
+    <dimen name="desktop_spaceship_light_margin_top">110dp</dimen>
+    <dimen name="splashscreen_spaceship_light_margin_top">100dp</dimen>
+    <dimen name="splashscreen_spaceship_translate_distance">270dp</dimen>
+    <dimen name="quick_float_window_padding">0dp</dimen>
+    <dimen name="game_home_img_margin_bottom">25dp</dimen>
+    <dimen name="master_scan_view_margin_top">165dp</dimen>
+    <dimen name="game_home_bottom_button">16dp</dimen>
+    <dimen name="game_show_view_margin">-15dp</dimen>
+    <dimen name="game_detect_viewpager_height">225dp</dimen>
+    <dimen name="game_detect_viewgroup_margin_top">3dp</dimen>
+    <dimen name="user_guide1_two_ask_margin_top">77dp</dimen>
+    <dimen name="quick_helper_content_margin_top">102dp</dimen>
+    <dimen name="mobile_security_main_header_title_comment">10sp</dimen>
+
+    <!-- 1.6.0 animation adaption-->
+    <dimen name="virus_scan_view_width">204dp</dimen>
+    <dimen name="virus_scan_view_height">204dp</dimen>
+    <dimen name="virus_scanning_content_height">325dp</dimen>
+    <dimen name="scanning_app_name_margin_top">10dp</dimen>
+    <dimen name="scan_result_content_margin_top">195dp</dimen>
+
+    <dimen name="tips_title_margin_top">35dp</dimen>
+    <dimen name="tips_title_subtitle_margin_top">20dp</dimen>
+    <dimen name="update_tips_done_btn_margin_top">35dp</dimen>
+
+    <!-- du version yoda -->
+
+    <dimen name="circle_size">228dp</dimen>
+    <dimen name="big_circle_ring_width">27.3dp</dimen>
+    <dimen name="game_scan_introduction_top">54dp</dimen>
+    <dimen name="game_scan_startscan_btn_bottom">40dp</dimen>
+    <dimen name="game_folder_icon_top">248dp</dimen>
+    <dimen name="game_scan_finished_container_bottom">0dp</dimen>
+    <dimen name="game_scan_found_mtop">3dp</dimen>
+    <dimen name="game_app_size">42dp</dimen>
+    <dimen name="game_app_size_samll">29dp</dimen>
+    <dimen name="game_app_folder_icon_gap">10dp</dimen>
+    <dimen name="game_indicator_gap">5dp</dimen>
+    <dimen name="game_start_boost_btn_top">14dp</dimen>
+    <dimen name="mainactivity_indicator_pdtb">5dp</dimen>
+    <dimen name="list_items_twolines_gap">6dp</dimen>
+    <dimen name="optimize_module_entrance_margintop">-6dp</dimen>
+
+    <!-- du version text size -->
+    <dimen name="circle_large_text_size">67sp</dimen>
+    <dimen name="circle_small_text_size">15sp</dimen>
+
+    <dimen name="phone_accelerate_status_margin_bottom">7dip</dimen>
+    <dimen name="game_accelerate_appicon_width">56dp</dimen>
+    <dimen name="floatWindowDialog_titletextSizeBig">19sp</dimen>
+    <dimen name="trash_clean_list_margintop">250dp</dimen>
+    <dimen name="shrink_margin_top">45dp</dimen>
+    <dimen name="explansion_margin_top">130dp</dimen>
+
+    <dimen name="quick_helper_edit_tips_margin_top">7dp</dimen>
+    <dimen name="quick_helper_edit_finish_margin_top">7dp</dimen>
+
+    <dimen name="battery_layout_marginTop">50dp</dimen>
+    <dimen name="show_game_apps_grid_view_height">170dp</dimen>
+
+    <dimen name="optimizer_circle_second_text_margintop">-12dp</dimen>
+
+    <dimen name="optimize_circle_score_size">67dp</dimen>
+    <dimen name="optimize_circle_secondary_text_size">15sp</dimen>
+
+    <dimen name="quick_helper_finish_button_padding_bottom">20dp</dimen>
+    <dimen name="trash_clean_optimizer_result_title_layout_margintop">10dp</dimen> <!--df 20dp  -->
+    <dimen name="trash_clean_func_recommend_layout_margintop">14dp</dimen> <!--df 14dp  -->
+    <dimen name="trash_clean_bottom_bt_height">40dp</dimen>
+    <dimen name="v2_font_size_main_title">24dp</dimen> <!-- df 24dp -->
+    <dimen name="v2_font_size_main_text">17sp</dimen> <!-- 50px can not divided by 3 -->
+    <dimen name="trash_clean_center_size">47dp</dimen>
+    <dimen name="scan_or_end_size_margin_top">10dp</dimen>
+    <dimen name="function_recommend_shortcut_margin">10dp</dimen>
+    <dimen name="function_recommend_image_margin_right">0dp</dimen>
+    <dimen name="function_recommend_moreWidth">35dp</dimen>
+    <dimen name="function_recommend_image_margin_left">8dp</dimen>
+    <dimen name="function_recommend_text_margin_left">8dp</dimen>
+
+    <dimen name="trash_clean_first_level_size_paddingLeft">5dp</dimen>
+    <dimen name="optimize_circle_wave_offset">10dp</dimen>
+
+    <dimen name="desk_rocket_bottom_arc_margin_bottom">-10dip</dimen>
+    <dimen name="trash_clean_Progressbar_height">8dp</dimen>
+    <dimen name="common_dialog_checkbox_message_layout_marginleft">5dp</dimen>
+    <dimen name="trash_clean_bottom_bt_marginbottom">14dp</dimen>
+    <dimen name="trash_clean_first_level_item_paddingRight">8dp</dimen>
+    <dimen name="trash_clean_child_item_paddingright">5dp</dimen>
+    <dimen name="optimize_icon_layout_margintop">0dp</dimen>
+    <dimen name="optimize_circle_scanning_size">27dp</dimen>
+    <dimen name="scan_line_bottom_fix">8dp</dimen>
+    <dimen name="big_circle_fix_height">2.5dp</dimen>
+    <dimen name="scan_or_clean_end_tv_maxWidth">125dp</dimen>
+    <dimen name="scan_or_clean_end_summary_tv_maxWidth">120dp</dimen>
+    <dimen name="more_automatic_brightness_layout_marginLeft">0dp</dimen>
+
+    <dimen name="whats_new_title_mtop">25dp</dimen>
+    <dimen name="whats_new_title_mbottom">12dp</dimen>
+    <dimen name="whats_new_start_mbottom">15dp</dimen>
+    <dimen name="whats_new_start_mtop">22dp</dimen>
+    <dimen name="whats_new_middle_mtop">0dp</dimen>
+    <dimen name="whats_new_improv_note_mtop">5dp</dimen>
+    <dimen name="whats_new_improv_title_mbottom">0dp</dimen>
+    <dimen name="whats_new_text_margintop">0dp</dimen>
+    <dimen name="whats_new_intro_linegap">7dp</dimen>
+    <dimen name="function_recommend_rateWidth">95dp</dimen>
+    <dimen name="function_recommend_ratemarginLeft">3dp</dimen>
+    <dimen name="whats_new_des_textsize">12sp</dimen>
+    <dimen name="whats_new_skip_textsize">11sp</dimen>
+    <dimen name="whatsnew_title_size">25sp</dimen>
+
+    <dimen name="rank_item_paddingr">5dp</dimen>
+    <dimen name="rank_item_paddingl">2dp</dimen>
+    <dimen name="rank_item_flag_mlr">3dp</dimen>
+    <dimen name="rank_item_countrycode_mr">3dp</dimen>
+    <dimen name="rank_item_speed_mr">5dp</dimen>
+
+    <dimen name="net_rank_list_country_code_textSize">15sp</dimen>
+    <dimen name="net_rank_list_trend_drawablePadding">2dp</dimen>
+    <dimen name="net_rank_list_trend_textSize">14sp</dimen>
+    <dimen name="whats_new_middle1_layout_height">160dp</dimen>
+    <dimen name="emergency_update_notification_update_btn_margin">4dp</dimen>
+    <dimen name="notification_settings_layout_marginLeft">15dp</dimen>
+    <dimen name="notification_settings_layout_marginRight">4dp</dimen>
+    <dimen name="checkbox_tips_left_padding">12dp</dimen>
+    <dimen name="battery_detail_margin_top">7dp</dimen>
+    <dimen name="battery_detail_margin_left">7dp</dimen>
+    <dimen name="battery_detail_margin_text">3dp</dimen>
+    <dimen name="battery_detail_margin_top_top">23dp</dimen>
+    <dimen name="battery_detai_image_size">150dp</dimen>
+    <dimen name="battery_text_width">247dp</dimen>
+    <dimen name="main_title_holder_width">8dp</dimen>
+    <dimen name="main_page_image_min_width">50dp</dimen>
+    <dimen name="main_page_messagebox_min_width">0dp</dimen>
+    <dimen name="ratedialog_star_marginleft">10dp</dimen>
+    <dimen name="ratedialog_star_marginright">10dp</dimen>
+    <dimen name="whats_new_improv_title_marginTop">30dp</dimen>
+    <!-- add v2.5.0 20150427 -->
+    <dimen name="trash_clean_list_margintop_new">240dp</dimen>
+
+    <dimen name="whats_new_intro_marginTop">2dp</dimen>
+    <dimen name="whats_new_improvment_marginTop">2dp</dimen>
+    <dimen name="whats_new_button_top">20dp</dimen>
+    <dimen name="whats_new_button_bottom">20dp</dimen>
+
+    <dimen name="trash_clean_first_level_item_maxwidth">140dp</dimen>
+    <dimen name="resultcard_du_family_textmarginright">15dp</dimen>
+    <dimen name="resultcard_du_family_linearlayout_width">140dp</dimen>
+
+    <dimen name="whatsnew_intro_textsize">13sp</dimen>
+
+    <!-- 悬浮窗广告 -->
+    <dimen name="float_ad_marginhorizontal">10dp</dimen>
+
+    <dimen name="whats_new_title_margintop">23dp</dimen>
+    <dimen name="whats_new_title_other_margintop">14dp</dimen>
+    <dimen name="whats_new_title_skip_margintop">20dp</dimen>
+    <dimen name="whats_new_main_tips_margintop">10dp</dimen>
+    <dimen name="whats_new_icon_margintop">10dp</dimen>
+    <dimen name="whats_new_icon_other_margintop">-35dp</dimen>
+    <dimen name="whats_new_icon_marginbottom">15dp</dimen>
+    <dimen name="whats_new_skip_marginbottom">20dp</dimen>
+    <dimen name="whats_new_btn_other_marginbottom">10dp</dimen>
+    <dimen name="whats_new_description_marginbottom">70dp</dimen>
+    <dimen name="whats_new_description_spacing">4dp</dimen>
+
+    <!-- 2.6.5 -->
+    <dimen name="whats_new_improvment_detial_padding_bottom">15dp</dimen>
+    <dimen name="whats_new_start_btn_padding_bottom">10dp</dimen>
+    <dimen name="whats_new_image_padding_bottom">10dp</dimen>
+    <dimen name="whats_new_improvment_detial_padding_top">5dp</dimen>
+
+    <dimen name="resultcard_upgrade_margintTop">8dp</dimen>
+
+    <!-- 280-->
+    <dimen name="optimizer_circle_slice_margintop">-26dp</dimen>
+    <dimen name="optimizingfragment_left_drawer_menu_width">240dp</dimen>
+    <dimen name="whatsnew_layout_bottom_button_margin_top">20dp</dimen>
+    <dimen name="bootstart_welcome_button_margin_bottom">15dp</dimen>
+    <dimen name="du_notificaiton_height">62dp</dimen>
+    <dimen name="adunlock_card_content_height">92dp</dimen>
+
+    <!-- 285-->
+    <dimen name="deepacc_shortcur_image_width">270dp</dimen>
+    <dimen name="deepacc_shortcur_image_height">226.4dp</dimen>
+    <dimen name="deepacc_shortcur_image_marginBottom">20dp</dimen>
+    <dimen name="deepacc_shortcut_text_marginLeft">27dp</dimen>
+    <dimen name="deepacc_shortcut_text_marginBottom">15dp</dimen>
+    <dimen name="deepacc_shortcut_text_lineSpacingExtra">2dp</dimen>
+    <!-- new result card-->
+    <dimen name="scard_ad_area_bottom">15dp</dimen>
+    <dimen name="scard_ad_area_bg_margin">50dp</dimen>
+
+    <!-- add in 2995 -->
+    <dimen name="warning_desc_text_linespace">4dp</dimen>
+    <dimen name="ducaller_scanner_margin_top">35dp</dimen>
+    <dimen name="caller_provider_text_margin_bottom">14dp</dimen>
+    <dimen name="caller_bt_goto_margin_bottom">8dp</dimen>
+    <dimen name="caller_warning_desc_textsize">13sp</dimen>
+    <dimen name="single_card_func_btn_height">30dp</dimen>
+    <dimen name="single_card_ad_margin_top">20dp</dimen>
+    <dimen name="single_card_du_group_ad_height">150dp</dimen>
+
+</resources>

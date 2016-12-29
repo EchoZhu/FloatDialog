@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_list_item_height_half">20dp</dimen>
+    <dimen name="trash_progress_item_view_tx_size">18sp</dimen>
+    <dimen name="trash_progress_item_trashlength_size">18sp</dimen>
+    <dimen name="scan_line_trans_speed">6dp</dimen>
+    <dimen name="scan_line_top_fix">5dp</dimen>
+    <dimen name="scan_line_bottom_fix">8dp</dimen>
+
+    <!--                      du version yoda                            -->
+    <!-- trash list view -->
+    <dimen name="trash_clean_list_margintop">305dp</dimen>
+    <dimen name="trash_clean_list_padding_horizontal">15dp</dimen>
+    <dimen name="trash_clean_list_divider_height">6dp</dimen>
+
+    <dimen name="trash_clean_second_level_list_margintop">5dp</dimen>
+    <dimen name="trash_clean_second_level_list_divider_height">7dp</dimen>
+    <!-- trash list item -->
+    <dimen name="trash_clean_first_level_item_maxwidth">140dp</dimen>
+    <dimen name="trash_clean_first_level_item_height">54dp</dimen>
+    <dimen name="trash_clean_first_level_item_icon_margingleft">1.3dp</dimen>
+    <dimen name="trash_clean_first_level_item_title_margingleft">12dp</dimen>
+    <dimen name="trash_clean_first_level_item_fold_marginleft">8dp</dimen>
+    <dimen name="trash_clean_second_level_item_text_size">13sp</dimen>
+    <dimen name="trash_clean_first_level_item_text_size">17sp</dimen>
+    <dimen name="trash_clean_secend_level_item_max_width">128dp</dimen>
+    <dimen name="trash_clean_first_level_size_paddingLeft">5dp</dimen>
+    <dimen name="trash_clean_first_level_item_size_marginright">11dp</dimen>
+    <dimen name="trash_clean_first_level_item_paddingRight">12dp</dimen>
+    <dimen name="trash_clean_first_level_item_paddingLeft">16dp</dimen>
+    <dimen name="trash_clean_first_level_item_st_marginRight">6dp</dimen>
+    <dimen name="trash_clean_first_level_item_size_marginright_1">27dp</dimen>
+    <dimen name="trash_clean_first_level_item_size_marginright_2">11dp</dimen>
+    <dimen name="trash_clean_first_level_item_checkbox_marginright">12dp</dimen>
+    <dimen name="trash_clean_first_level_item_checkbox_marginLeft">11dp</dimen>
+    <dimen name="trash_clean_first_level_item_last_item_marginright">10dp</dimen>
+    <dimen name="trash_clean_first_level_item_last_item_paddingRight">2dp</dimen>
+
+    <dimen name="trash_clean_second_level_item_checkbox_marginleft">11dp</dimen>
+    <dimen name="trash_clean_child_item_hegith">41dp</dimen>
+    <dimen name="trash_clean_child_item_paddingright">15dp</dimen>
+    <dimen name="trash_clean_child_item_checkbox_marginleft">14dp</dimen>
+
+    <dimen name="trash_clean_second_level_item_hegith">50dp</dimen>
+    <dimen name="trash_clean_second_level_item_icon_margingleft">24dp</dimen>
+    <dimen name="trash_clean_second_level_item_indicator_and_title_margingleft">7dp</dimen>
+    <dimen name="trash_clean_second_level_item_checkbox_marginright">12dp</dimen>
+    <dimen name="trash_clean_second_level_item_size_marginright">11dp</dimen>
+
+    <dimen name="trash_clean_child_item_icon_marginleft">24dp</dimen>
+    <dimen name="trash_clean_child_item_title_marginleft">17dp</dimen>
+    <dimen name="trash_clean_child_item_checkbox_marginright">15.3dp</dimen>
+
+    <dimen name="trash_clean_child_item_text_size">13sp</dimen>
+    <dimen name="trash_clean_child_item_size_marginright">11dp</dimen>
+    <dimen name="trash_clean_apk_item_fst_summary_width">120dp</dimen>
+    <!-- trash scan loading -->
+    <dimen name="trash_clean_loading_height">19dp</dimen>
+    <dimen name="trash_clean_loading_width">19dp</dimen>
+    <!-- trash clean bottom button -->
+    <dimen name="trash_clean_bottom_bt_height">47dp</dimen>
+    <dimen name="trash_clean_bottom_bt_margin_horizontal">@dimen/trash_clean_list_padding_horizontal</dimen>
+    <dimen name="trash_clean_bottom_bt_marginbottom">24dp</dimen>
+    <dimen name="trash_clean_optimizer_result_title_layout_margintop">20dp</dimen> <!--df 20dp  -->
+    <dimen name="trash_clean_func_recommend_layout_margintop">14dp</dimen> <!--df 14dp  -->
+
+    <dimen name="common_list_item_two_text_left_margin">10dp</dimen>
+    <dimen name="common_list_item_checkbox_left_margin">10dp</dimen>
+    <dimen name="common_list_filepath_layout_marginLeft">-10dp</dimen>
+    <dimen name="common_list_filepath_textview_minWidth">90dp</dimen>
+    <dimen name="common_list_filepath_textview_pindding">20dp</dimen>
+
+    <dimen name="shrink_margin_top">45dp</dimen>
+    <dimen name="explansion_margin_top">170dp</dimen>
+    <dimen name="quick_helper_edit_tips_margin_top">10dp</dimen>
+    <dimen name="quick_helper_edit_finish_margin_top">12dp</dimen>
+    <dimen name="quick_helper_edit_content_height">70dp</dimen>
+    <dimen name="scan_or_end_size_margin_top">10dp</dimen>
+    <dimen name="trash_clean_Progressbar_height">8dp</dimen>
+
+    <!-- add 2.2.0 20141104 -->
+    <dimen name="trash_clean_share_top">12dp</dimen>
+    <dimen name="trash_clean_share_msg_top">5dp</dimen>
+    <dimen name="trash_clean_share_msg_left">5dp</dimen>
+    <dimen name="trash_clean_share_title_size">17sp</dimen>
+    <dimen name="trash_clean_share_msg_size">27sp</dimen>
+    <dimen name="trash_clean_share_icon_right">27dp</dimen>
+    <dimen name="trash_clean_detail_top">3dp</dimen>
+    <!-- add 2.3.5 20150210 -->
+    <dimen name="trash_clean_white_dialog_left">12dp</dimen>
+    <dimen name="trash_clean_white_dialog_margin">20dp</dimen>
+    <dimen name="trash_clean_white_image_width">40dp</dimen>
+    <dimen name="trash_clean_white_dialog_top">16dp</dimen>
+    <dimen name="trash_clean_white_linespacing">3dp</dimen>
+    <dimen name="trash_clean_white_linespacing_tip">2dp</dimen>
+    <dimen name="trash_clean_notify_top">10dp</dimen>
+    <dimen name="trash_clean_notify_left">5dp</dimen>
+    <dimen name="trash_clean_back_notifaction_size">13sp</dimen>
+    <dimen name="process_white_list_ignore_icon_with">16dp</dimen>
+    <dimen name="process_white_list_ignore_icon_height">17dp</dimen>
+
+    <dimen name="trash_image_bucket_size">157dp</dimen>
+    <dimen name="trash_image_item_size">100dp</dimen>
+    <dimen name="trash_image_select_size">25dp</dimen>
+    <dimen name="trash_image_mask_size">50dp</dimen>
+
+    <!-- add 2.5.0 20150427 -->
+    <dimen name="trash_large_video_height">44dp</dimen>
+    <dimen name="trash_large_video_text_height">41dp</dimen>
+    <dimen name="trash_clean_list_margintop_new">295dp</dimen>
+    <dimen name="trash_clean_image_grid_margin">8dp</dimen>
+    <dimen name="trash_clean_image_grid_horizontal_spacing">6dp</dimen>
+    <!--v2.6.0-->
+    <dimen name="common_list_filepath_textview_maxWidth">120dp</dimen>
+    <dimen name="trash_clean_tip_hight">88dp</dimen>
+    <dimen name="trash_clean_tip_margin_top">44dp</dimen>
+    <dimen name="trash_clean_tip_scan_size">50sp</dimen>
+    <dimen name="trash_clean_tip_mb_size">17sp</dimen>
+    <dimen name="trash_clean_tip_padding_left">3dp</dimen>
+    <dimen name="trash_clean_tip_padding_top">21dp</dimen>
+    <dimen name="trash_clean_tip_found_top">3dp</dimen>
+    <!--2.8.0-->
+    <dimen name="app_clean_card_item_height">40dp</dimen>
+    <dimen name="app_clean_dialog_checkbox_padding_left">4dp</dimen>
+    <dimen name="app_clean_drawable_inset">13dp</dimen>
+    <dimen name="trash_listview_margin_top">12dp</dimen>
+    <!--2.9.0-->
+    <dimen name="app_clean_by_type_title_height">42dp</dimen>
+    <dimen name="app_clean_by_type_title_padding">14.33dp</dimen>
+    <dimen name="app_clean_by_type_voice_item_padding">15dp</dimen>
+    <dimen name="app_clean_by_type_voice_item_divider">1dp</dimen>
+    <dimen name="app_clean_by_type_default_item_divider">10dp</dimen>
+    <dimen name="app_clean_by_type_trash_image_size">100dp</dimen>
+    <dimen name="app_clean_by_type_content_margin">8dp</dimen>
+    <dimen name="app_clean_by_type_content_padding">5dp</dimen>
+
+    <!--相似图片-->
+    <dimen name="image_viewpager_select_size">48dp</dimen>
+    <dimen name="image_viewpager_select_margin_right">27dp</dimen>
+    <dimen name="image_viewpager_select_margin_bottom">43dp</dimen>
+
+</resources>
