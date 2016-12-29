@@ -32,6 +32,7 @@ public class FloatDialog extends DialogFragment implements View.OnClickListener 
 
         getDialog().requestWindowFeature(Window.FEATURE_NO_TITLE);
         View mView;
+
         mView = inflater.inflate(R.layout.float_dialog, container);
         LinearLayout googleView = (LinearLayout) mView.findViewById(R.id.a_view);
         LinearLayout codapay = (LinearLayout) mView.findViewById(R.id.b_view);
