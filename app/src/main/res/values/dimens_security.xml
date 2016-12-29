@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="system_optimize_page_padding_top">10dp</dimen>
+    <dimen name="system_optimize_page_padding_left">4dp</dimen>
+    <dimen name="system_optimize_page_padding_right">4dp</dimen>
+    <dimen name="system_optimize_page_padding_bottom">5dp</dimen>
+    <dimen name="permi_mana_list_item_arrow_margin_right">17dp</dimen>
+    <dimen name="permission_details_app_info_height">88dp</dimen>
+    <dimen name="permission_details_app_icon_margin_left">17dp</dimen>
+    <dimen name="permission_details_app_info_margin_left">15dp</dimen>
+    <dimen name="permission_detail_app_name_size">16sp</dimen>
+    <dimen name="permission_detail_app_summary_size">14sp</dimen>
+    <dimen name="permi_deta_list_item_margin_left">40dp</dimen>
+    <dimen name="block_tab_textsize">13sp</dimen>
+    <dimen name="block_common_paddingLeft">20dp</dimen>
+    <dimen name="block_common_paddingRight">20dp</dimen>
+    <dimen name="block_common_paddingTop">10dp</dimen>
+    <dimen name="block_common_line_space">3dp</dimen>
+    <dimen name="block_call_item_height">73dp</dimen>
+    <dimen name="block_call_name_textsize">16sp</dimen>
+    <dimen name="block_call_time_textsize">12sp</dimen>
+    <dimen name="block_call_number_textsize">12sp</dimen>
+    <dimen name="block_call_number_marginTop">12dp</dimen>
+    <dimen name="block_sms_item_min_height">83dp</dimen>
+    <dimen name="block_sms_item_paddingTop">14dp</dimen>
+    <dimen name="block_sms_icon_margintop">5dp</dimen>
+    <dimen name="block_sms_message_textsize">15sp</dimen>
+    <dimen name="block_sms_time_textsize">12sp</dimen>
+    <dimen name="block_sms_time_margintop">3dp</dimen>
+    <dimen name="block_sms_time_marginbottom">14dp</dimen>
+    <dimen name="block_details_infobar_textsize">16sp</dimen>
+    <dimen name="block_details_infobar_gap">8dp</dimen>
+    <dimen name="block_details_icon_gap">16dp</dimen>
+    <dimen name="block_details_call_item_height">58dp</dimen>
+    <dimen name="block_contacts_name_textsize">15sp</dimen>
+    <dimen name="block_contacts_number_textsize">12sp</dimen>
+    <dimen name="security_main_header_shield_width">145dp</dimen>
+    <dimen name="security_main_header_shield_height">145dp</dimen>
+    <dimen name="security_flare_light_margin_left">112dp</dimen>
+    <dimen name="security_flare_light_margin_top">21dp</dimen>
+    <dimen name="permission_man_info_bar_height">48dp</dimen>
+    <dimen name="permission_man_info_bar_padding_left">20dp</dimen>
+    <dimen name="permission_man_info_bar_padding_right">15dp</dimen>
+    <dimen name="black_list_item_height">40dp</dimen>
+    <dimen name="mobile_security_main_header_title_comment">12sp</dimen>
+    <dimen name="mobile_security_bottom_comment_padding_left">10dp</dimen>
+    <dimen name="mobile_security_bottom_comment_padding_bottom">5dp</dimen>
+    <dimen name="mobile_security_bottom_comment_line_space">3dp</dimen>
+    <dimen name="antivirus_scanning_summary_tv">11sp</dimen>
+    <dimen name="virus_scan_summary_margin_top">10dp</dimen>
+    <dimen name="antivirus_engine_summary_size">12sp</dimen>
+    <dimen name="virus_scan_view_width">204dp</dimen>
+    <dimen name="virus_scan_view_height">204dp</dimen>
+    <dimen name="virus_page_virus1_margin_top">30dp</dimen>
+    <dimen name="virus_page_virus1_margin_left">136dp</dimen>
+    <dimen name="virus_page_virus2_margin_top">104dp</dimen>
+    <dimen name="virus_page_virus2_margin_left">49dp</dimen>
+    <dimen name="virus_page_virus3_margin_top">162dp</dimen>
+    <dimen name="virus_page_virus3_margin_left">148dp</dimen>
+    <dimen name="virus_progress_text_size">25sp</dimen>
+    <dimen name="scanning_app_name_margin_top">12dp</dimen>
+    <dimen name="scan_summary_margin_top">8dp</dimen>
+    <dimen name="scan_bebas_text_size">23sp</dimen>
+    <dimen name="scan_summary_text_size">14sp</dimen>
+    <dimen name="first_scan_longer_summary">12sp</dimen>
+    <dimen name="antivirus_engine_summary">10dp</dimen>
+    <dimen name="antivirus_engine_summary_margin_left">7dp</dimen>
+    <dimen name="engine_summary_margin_bottom">12dp</dimen>
+    <dimen name="scan_result_content_margin_top">232dp</dimen>
+    <dimen name="virus_scanning_content_height">370dp</dimen>
+    <dimen name="virus_detail_ignore_btn_margin_right">20dp</dimen>
+    <dimen name="virus_detail_ignore_btn_height">32dp</dimen>
+    <dimen name="virus_detail_ignore_btn_min_width">65dp</dimen>
+    <dimen name="virus_detail_ignore_btn_text_size">12sp</dimen>
+    <dimen name="virus_detail_securitly_level_margin_right">12dp</dimen>
+
+
+    <dimen name="virus_result_title_size">20dp</dimen>
+    <dimen name="virus_result_title_height">65dp</dimen>
+    <dimen name="virus_result_title_marginLeft">15dp</dimen>
+    <dimen name="virus_page_bottom_button_margin">15dp</dimen>
+    <dimen name="has_virus_handle_summary">13dp</dimen>
+    <dimen name="has_virus_handle_summary_margin_top">8dp</dimen>
+    <dimen name="has_virus_check_padding_left">17dp</dimen>
+    <dimen name="has_virus_check_padding_top">7dp</dimen>
+    <dimen name="has_virus_check_text_size">12dp</dimen>
+    <dimen name="virus_found_handle_size">25dp</dimen>
+    <dimen name="has_virus_check_margin_top">12dp</dimen>
+    <dimen name="result_safe_scan_sdcard">14dp</dimen>
+    <dimen name="virus_safe_summary_drawable_padding">6dp</dimen>
+    <dimen name="virus_details_item_margin">15dp</dimen>
+    <dimen name="virus_scanning_app_name_padding">40dp</dimen>
+    <dimen name="has_virus_check_height">32.5dp</dimen>
+    <dimen name="virus_avtest_text_size">12sp</dimen>
+    <dimen name="virus_details_item_margin_left">30dp</dimen>
+    <dimen name="virus_details_item_header_padding_left">21dp</dimen>
+
+    <!--added for new ui 2.0-->
+    <dimen name="permission_list_action_btn_width">60dp</dimen>
+    <dimen name="virus_detail_center_icon_width_height">88dp</dimen>
+    <dimen name="virus_detail_header_info_margin_top">16dp</dimen>
+    <dimen name="virus_detail_header_info_margin_bottom">18dp</dimen>
+    <dimen name="virus_detail_header_margin_top">40dp</dimen>
+    <dimen name="virus_result_list_header_height">52dp</dimen>
+    <dimen name="virus_result_list_header_padding_left">56dp</dimen>
+    <dimen name="block_select_item_checkbox_margin_left">12dp</dimen>
+    <dimen name="virus_trans_distance">3.3dp</dimen>
+    <dimen name="virus_scan_info_margin_top">22dp</dimen>
+    <dimen name="virus_center_icon_width_height">63dp</dimen>
+    <dimen name="virus_center_scanning_icon_width">9dp</dimen>
+
+    <dimen name="virus_scan_result_anim_text_size">17sp</dimen>
+
+
+</resources>

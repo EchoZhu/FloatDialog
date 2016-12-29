@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android OS dimensions -->
+    <dimen name="app_icon_size">48dp</dimen>
+    <dimen name="status_bar_height">25dip</dimen>
+
+    <!-- For buttons -->
+    <dimen name="common_text_size_large">18dp</dimen>
+    <!-- For list texts (top line) -->
+    <dimen name="common_text_size_middle">15dp</dimen>
+    <dimen name="common_text_size_middle_2">14dp</dimen>
+    <!-- For list texts (bottom line), summary texts, icon texts, descriptions, tag texts -->
+    <dimen name="common_text_size_small">17dp</dimen>
+    <dimen name="common_text_size_small_2">10dp</dimen>
+    <dimen name="common_text_size_small_3">12dp</dimen>
+
+    <dimen name="common_list_header_height">30dp</dimen>
+    <dimen name="common_list_header_padding_left">10dp</dimen>
+    <dimen name="common_list_item_height">63dp</dimen>
+    <dimen name="common_list_item_left_padding">11dp</dimen>
+    <dimen name="common_list_item_right_padding">10dp</dimen>
+    <dimen name="common_list_item_app_icon_size">48dp</dimen>
+    <dimen name="common_list_item_app_icon_right_margin">11dp</dimen>
+    <dimen name="common_list_item_app_icon_left_margin">8dp</dimen>
+    <dimen name="common_list_item_two_line_first_top_margin">6dp</dimen>
+    <dimen name="common_list_item_two_line_second_top_margin">2dp</dimen>
+    <dimen name="common_list_item_text_left_margin">12dp</dimen>
+    <dimen name="common_list_sperator_height">2px</dimen>
+
+    <dimen name="common_action_button_width">56dp</dimen>
+    <dimen name="common_action_button_height">56dp</dimen>
+
+    <dimen name="common_module_feature_icon_size">32dp</dimen>
+    <dimen name="common_page_bottom_one_button_margin">10dp</dimen>
+
+    <dimen name="common_expandable_list_padding_left">24dp</dimen>
+    <dimen name="common_expandable_list_group_indicator_left">20dp</dimen>
+    <dimen name="common_expandable_group_title_height">48dp</dimen>
+    <dimen name="common_expandable_group_title_padding">50dp</dimen>
+
+    <dimen name="common_page_shadow_height">6dp</dimen>
+    <dimen name="common_page_header_height">140dp</dimen>
+    <dimen name="common_page_header_height_2">140dp</dimen>
+    <dimen name="common_module_page_margin_left">16dp</dimen>
+    <dimen name="common_module_page_margin_right">16dp</dimen>
+    <dimen name="common_module_page_margin_bottom">8dp</dimen>
+
+    <!-- Modules specific dimensions -->
+    <dimen name="dx_sound_recorder_size">90dp</dimen>
+    <dimen name="float_view_top_offest">1dp</dimen>
+    <dimen name="tk_tap_clean_shortcut_size">56dp</dimen>
+    <dimen name="tk_tap_clean_app_icon_space">64dp</dimen>
+    <dimen name="sevenKey_widget_dxhome_switch_margin_top">12dp</dimen>
+    <dimen name="notification_stats_size">56dp</dimen>
+    <dimen name="wizard_indicator_padding">3dp</dimen>
+    <dimen name="net_float_window_width">64dp</dimen>
+    <dimen name="net_float_window_offset_value">10dp</dimen>
+    <dimen name="scanner_offset_x">12dp</dimen>
+    <dimen name="app_scanner_icon_size">42dp</dimen>
+
+    <dimen name="about_lines_margin">6dp</dimen>
+
+    <!-- For toolbox app center -->
+    <dimen name="toolbox_app_icon_bg_size">52dp</dimen>
+
+    <!-- DeviceFanView used dimensions -->
+    <dimen name="df_fan_gap">58dip</dimen>
+
+    <!-- For More Activity seekbar thumboff value -->
+    <dimen name="more_activity_seekbar_thumboff">10dp</dimen>
+
+    <!-- du version 1.0 -->
+    <dimen name="main_title_holder_width">16dp</dimen>
+    <dimen name="diagnostic_summary_button_margin">25dp</dimen>
+    <dimen name="diagnostic_score_width">145dp</dimen>
+    <dimen name="diagnostic_list_title_margin">3dp</dimen>
+    <dimen name="diagnostic_list_title_icon_size">17dp</dimen>
+    <dimen name="main_page_grid_item_icon_item_margin">12dp</dimen>
+    <dimen name="main_page_grid_item_padding_bottom">30dp</dimen>
+    <dimen name="secondary_page_title_size">14sp</dimen>
+    <dimen name="secondary_page_title_comment_size">12sp</dimen>
+    <dimen name="freeze_app_grid_item_margin">8dp</dimen>
+    <dimen name="secondary_page_header_btn_margin_top">14dp</dimen>
+    <dimen name="secondary_page_header_mid_margin">8dp</dimen>
+    <dimen name="secondary_page_header_margin_right">10dp</dimen>
+
+    <dimen name="main_opt_title_margintop">5dp</dimen>
+    <dimen name="main_opt_info_margintop">15dp</dimen>
+
+    <dimen name="devices_item_height">48dp</dimen>
+    <dimen name="enter_page_name_margin_top">42dp</dimen>
+    <dimen name="enter_page_app_name_size">30sp</dimen>
+    <dimen name="enter_page_name_introduce">16sp</dimen>
+    <dimen name="enter_page_name_introduce_margin_top">8dp</dimen>
+    <dimen name="enter_page_scan_app_name_margin_bottom">78dp</dimen>
+    <dimen name="enter_page_scan_app_name_size">12sp</dimen>
+    <dimen name="time_num_font">32dp</dimen>
+    <dimen name="time_num_font_margin">2dp</dimen>
+    <dimen name="diagnostic_score_text_size">35sp</dimen>
+    <dimen name="diagnostic_score_point_text_size">10sp</dimen>
+    <dimen name="diagnostic_instruct_detect_text_size">35sp</dimen>
+    <dimen name="rotate_number_width">28dp</dimen>
+    <dimen name="enter_page_circle_one_margin_right">2dp</dimen>
+    <dimen name="enter_page_circle_two_margin_left">1dp</dimen>
+    <dimen name="enter_page_frame_layout_height">175dp</dimen>
+    <dimen name="enter_page_image_draw_view_height">37.5dp</dimen>
+    <dimen name="enter_page_animation_margin_top">230dp</dimen>
+    <dimen name="enter_page_animation_width">175dp</dimen>
+    <dimen name="enter_page_animation_height">175dp</dimen>
+    <dimen name="phone_space_rom_percent_text_size">17sp</dimen>
+    <dimen name="phone_space_rom_percent_size">9sp</dimen>
+    <dimen name="phone_space_animation_margin_left">10sp</dimen>
+    <dimen name="rotatenumber_margin_top">30dp</dimen>
+
+    <dimen name="enter_page_inner_content_margin">5dp</dimen>
+    <dimen name="user_guide1_one_margin_left">20dp</dimen>
+    <dimen name="user_guide1_one_ask_margin_top">87dp</dimen>
+    <dimen name="user_guide_one_ask_text_size">10sp</dimen>
+    <dimen name="user_guide_one_answer_text_size">42sp</dimen>
+    <dimen name="user_guide_answer_margin_top">6dp</dimen>
+    <dimen name="user_guide1_two_ask_margin_top">81dp</dimen>
+    <dimen name="user_guide_two_ask_text_size">10dp</dimen>
+    <dimen name="user_guide_two_answer_text_size">20dp</dimen>
+    <dimen name="user_guide1_image_margin_bottom">25dp</dimen>
+    <dimen name="user_guide_two_title_margin_top">80dp</dimen>
+    <dimen name="user_guide_two_title">25sp</dimen>
+    <dimen name="user_guide_two_content1_margin_top">45dp</dimen>
+    <dimen name="user_guide_two_content1_text_size">12sp</dimen>
+    <dimen name="user_guide_two_content2_margin_top">23dp</dimen>
+    <dimen name="user_guide_two_rocket_margin_bottom">-20dp</dimen>
+    <dimen name="user_guide_three_answer_text_size">17sp</dimen>
+    <dimen name="user_guide2_user_plan_text">10sp</dimen>
+    <dimen name="auto_scroll_speed">11dp</dimen>
+    <dimen name="auto_scroll_left_speed">12dp</dimen>
+    <dimen name="auto_scroll_right_speed">10dp</dimen>
+    <dimen name="float_rocket_margin_bottom">73dp</dimen>
+    <dimen name="widget_dxfast_more_grid_hight">190dp</dimen>
+    <dimen name="common_dialog_out_margin">20dp</dimen>
+    <dimen name="widget_dxfast_more_checkbox_right">-1dp</dimen>
+    <dimen name="circle_progress_color_width">150dp</dimen>
+    <dimen name="action_button_cleaned_text_padding">2dp</dimen>
+    <dimen name="move_to_sd_header_padding_bottom">16dp</dimen>
+    <dimen name="move_to_sd_header_progress_margin_top">15dp</dimen>
+    <dimen name="move_to_sd_header_progress_margin_bottom">23dp</dimen>
+    <dimen name="list_item_checkbox_padding_left">5dp</dimen>
+    <dimen name="desktop_spaceship_galaxy_margin_top">106dp</dimen>
+    <dimen name="desktop_spaceship_lensflare_margin_top">80dp</dimen>
+    <dimen name="desktop_spaceship_light_margin_top">125dp</dimen>
+    <dimen name="spaceship_translate_distance">430dp</dimen>
+    <dimen name="page_title_margin_top">16dp</dimen>
+    <dimen name="page_title_margin_left">16dp</dimen>
+    <dimen name="page_title_text_size">17dp</dimen>
+    <dimen name="splashscreen_spaceship_galaxy_margin_top">106sp</dimen>
+    <dimen name="splashscreen_spaceship_lensflare_margin_top">90dp</dimen>
+    <dimen name="splashscreen_spaceship_light_margin_top">120dp</dimen>
+    <dimen name="splashscreen_spaceship_translate_distance">260dp</dimen>
+    <dimen name="quick_float_window_padding">0dp</dimen>
+    <dimen name="game_home_img_margin_bottom">2dp</dimen>
+    <dimen name="feedback_content_height">112dp</dimen>
+    <dimen name="feedback_btn_margin">3dp</dimen>
+    <dimen name="home_page_icon_padding">18dp</dimen>
+
+    <!-- du version 1.2.5 -->
+
+    <dimen name="update_tips_padding_left_right">30dp</dimen>
+    <dimen name="tips_title_margin_top">35dp</dimen>
+    <dimen name="tips_title_text_size">20sp</dimen>
+    <dimen name="whats_new_subtitle_margin_bottom">10dp</dimen>
+    <dimen name="tips_title_subtitle_margin_top">20dp</dimen>
+    <dimen name="tips_subtitle_linespace">5dp</dimen>
+    <dimen name="tips_subtitle_text_size">12sp</dimen>
+    <dimen name="tips_des_text_size">14sp</dimen>
+    <dimen name="update_item_container_margin_top">10dp</dimen>
+    <dimen name="update_tips_done_btn_margin_top">24dp</dimen>
+    <dimen name="tips_item_text_size">12sp</dimen>
+    <dimen name="update_tips_center_virus_picture_height">118dp</dimen>
+    <dimen name="update_tips_claim_margin_top">30dp</dimen>
+    <dimen name="update_tip_middle_button_height">50dp</dimen>
+
+    <!-- begin add by ui 2.0 -->
+    <dimen name="v2_font_size_main_title">24dp</dimen> <!-- df 24dp -->
+    <dimen name="v2_font_size_main_title_second">20sp</dimen>
+    <dimen name="v2_font_size_main_text">16.7dp</dimen> <!-- 50px can not divided by 3 -->
+    <dimen name="v2_font_size_vice_text">13sp</dimen> <!-- 40px can not divided by 3 -->
+    <dimen name="v2_font_size_optimize_scan_finish">40dp</dimen>
+    <dimen name="v2_font_size_optimize_memory_number">40dp</dimen>
+    <dimen name="v2_font_size_optimize_memory_unit">40dp</dimen>
+    <dimen name="v2_font_size_optimizer_score">56.7dp</dimen> <!-- 170px can not divided by 3 -->
+    <dimen name="v2_font_size_speed_test_vs">56.7dp</dimen> <!-- 170px can not divided by 3 -->
+
+    <dimen name="big_circle_fix_height">3.3dp</dimen>
+    <dimen name="common_list_item_right_icon_margin_right">15dp</dimen>
+
+    <dimen name="trash_child_list_icon_size">32dp</dimen>
+    <dimen name="trash_child_list_icon_icon_right_margin">12dp</dimen>
+    <dimen name="common_top_dx_progressbar_height">2dp</dimen>
+    <dimen name="trash_clean_center_size">56.7dp</dimen>
+    <dimen name="function_recommend_shortcut_margin">10dp</dimen>
+    <dimen name="function_recommend_image_margin_right">0dp</dimen>
+    <dimen name="function_recommend_image_margin_left">7dp</dimen>
+    <dimen name="function_recommend_text_margin_left">8dp</dimen>
+    <dimen name="function_recommend_moreWidth">30dp</dimen>
+    <dimen name="function_recommend_rateWidth">95dp</dimen>
+    <dimen name="function_recommend_ratemarginLeft">3dp</dimen>
+    <dimen name="maindialog_rateWidth">165dp</dimen>
+    <dimen name="maindialog_rateheight">34dp</dimen>
+    <dimen name="introduction_padding_bottom">25dp</dimen>
+    <dimen name="dxfast_widget_accelerate_content_width">58dp</dimen>
+    <dimen name="quick_clear_fan_cover_width">64dp</dimen>
+    <dimen name="more_automatic_brightness_max_width">60dp</dimen>
+    <dimen name="more_automatic_brightness_layout_marginLeft">5dp</dimen>
+    <dimen name="trash_feedback_content_height">60dp</dimen>
+    <!-- end add by ui 2.0 -->
+    <dimen name="splashmain_slogan_margin">0dip</dimen>
+
+    <dimen name="emergency_update_dowloadbtn_margin_bottom">20dp</dimen>
+    <dimen name="emergency_update_content_padding">20dp</dimen>
+    <dimen name="emergency_update_download_num_margin">10dp</dimen>
+    <dimen name="emergency_update_notification_update_btn_margin">15dp</dimen>
+    <dimen name="emergency_update_notification_update_image_layout_margin">8dp</dimen>
+    <dimen name="emergency_update_download_progress_margin">10dp</dimen>
+    <dimen name="emergency_update_download_progress_text_size">13sp</dimen>
+    <dimen name="emergency_update_download_btn_text_size">18sp</dimen>
+    <dimen name="recommend_height">68dp</dimen>
+    <dimen name="recommend_image_height">46dp</dimen>
+    <dimen name="recommend_text_top">7dp</dimen>
+    <dimen name="notification_settings_margin">15dp</dimen>
+    <dimen name="notification_settings_layout_marginLeft">15dp</dimen>
+    <dimen name="notification_settings_layout_marginRight">15dp</dimen>
+    <dimen name="emergency_update_notification_title_text_size">17sp</dimen>
+    <dimen name="messagebox_refresh_margin_top">400dp</dimen>
+    <dimen name="main_page_messagebox_min_width">48dp</dimen>
+
+    <dimen name="rating_dialog_2_title">24sp</dimen>
+    <dimen name="rating_dialog_2_content">17sp</dimen>
+    <dimen name="whats_new_improv_title_marginTop">64dp</dimen>
+    <dimen name="whats_new_intro_marginTop">20dp</dimen>
+    <dimen name="whats_new_intro_text_size">16sp</dimen>
+
+    <dimen name="whats_new_improvment_marginTop">20dp</dimen>
+    <dimen name="whats_new_button_top">60dp</dimen>
+    <dimen name="whats_new_button_bottom">37dp</dimen>
+
+    <dimen name ="trash_card_sd_item_margin_left">13dp</dimen>
+    <dimen name ="trash_card_sd_title_margin">16dp</dimen>
+    <dimen name ="trash_card_bottom_margin">16dp</dimen>
+    <dimen name ="trash_card_top_margin">12dp</dimen>
+    <dimen name ="optimize_page_tips_left">-18dp</dimen>
+    <!--为适配少数手机泰语环境下CPU结果页温度折行显示，普通情况下resultcard_title_minWidth为0dp，在俄语hdpi环境下minWidth为78dp-->
+    <dimen name="resultcard_title_minWidth">0dp</dimen>
+
+    <!-- 2.8.0 主页侧滑菜单-->
+    <dimen name="mainactivity_leftdrawer_menu_item_height">55dp</dimen>
+    <dimen name="optimizingfragment_left_drawer_menu_width">250dp</dimen>
+
+    <dimen name="opimizerfragment_title_padding_left">9dp</dimen>
+    <dimen name="whatsnew_layout_bottom_button_margin_top">30dp</dimen>
+
+    <dimen name="optimizer_secondary_title_max_width">140dp</dimen>
+    <dimen name="optimizingfragment_left_drawer_menu_padding">16dp</dimen>
+    <dimen name="rating_start_tip_height">55dp</dimen>
+</resources>
