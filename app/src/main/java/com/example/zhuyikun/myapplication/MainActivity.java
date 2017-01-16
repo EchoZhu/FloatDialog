@@ -1,7 +1,14 @@
 package com.example.zhuyikun.myapplication;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
+import android.provider.Settings;
+import android.support.annotation.RequiresApi;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -25,12 +32,16 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton;
     private FrameLayout mEmotionRainContainer;
     private EmotionRainAnimation rainAnimation;
+    private ProgressDialog progressDialog;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle("正在上传图片,请稍后");
+
 //        FloatDialog dialog = new FloatDialog();
 //        dialog.setOutContext(this);
 //        dialog.show(getSupportFragmentManager(), getLocalClassName());
@@ -47,12 +58,22 @@ public class MainActivity extends AppCompatActivity {
         final long starTime = System.currentTimeMillis();
         mButton = (Button) findViewById(R.id.btn);
         mButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
 //                rainAnimation.startAnimation();    ((System.currentTimeMillis() - starTime) % (1000 * 60)) / 1000
 //                long userTime = ((System.currentTimeMillis() - starTime) % (1000 * 60)) / 1000;
 //                Log.d("useTime",userTime+"");
+                progressDialog.show();
                 uploadPic();
+//                if (!Settings.System.canWrite(MainActivity.this)) {
+//                    Toast.makeText(MainActivity.this,"请在该设置页面勾选",Toast.LENGTH_LONG).show();
+//                    Uri selfPackageUri = Uri.parse("package:"
+//                            + MainActivity.this.getPackageName());
+//                    Intent intent = new Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS,
+//                            selfPackageUri);
+//                    startActivity(intent);
+//                }
             }
 
             private void uploadPic() {
@@ -77,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onFailure(Request request, IOException e)
                     {
                         Looper.prepare();
+                        progressDialog.dismiss();
                         Toast.makeText(MainActivity.this,"fail",Toast.LENGTH_LONG).show();
                         Looper.loop();
                     }
@@ -86,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
                     {
                         //String htmlStr =  response.body().string();
                         Looper.prepare();
+                        progressDialog.dismiss();
                         Toast.makeText(MainActivity.this,"success",Toast.LENGTH_LONG).show();
                         Looper.loop();
                     }
