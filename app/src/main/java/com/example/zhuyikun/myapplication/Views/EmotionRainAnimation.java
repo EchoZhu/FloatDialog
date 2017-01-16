@@ -82,10 +82,10 @@ public class EmotionRainAnimation extends View implements AnimatorUpdateListener
         range = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10
                 , getResources().getDisplayMetrics());
 
-        builderFollower(firstAndLastFllowerCount, fllowers1);
-        builderFollower(fllowerCount, fllowers2);
-        builderFollower(fllowerCount, fllowers3);
-        builderFollower(firstAndLastFllowerCount, fllowers4);
+        builderFollower(1, fllowers1);
+//        builderFollower(fllowerCount, fllowers2);
+//        builderFollower(fllowerCount, fllowers3);
+//        builderFollower(firstAndLastFllowerCount, fll owers4);
 
     }
 
@@ -101,7 +101,7 @@ public class EmotionRainAnimation extends View implements AnimatorUpdateListener
     /**
      * 曲线高度个数分割
      */
-    private int quadCount = 10;
+    private int quadCount = 3;
     /**
      * 曲度
      */
@@ -176,8 +176,10 @@ public class EmotionRainAnimation extends View implements AnimatorUpdateListener
                     path.moveTo(point.x, point.y);
                 } else {
                     CPoint prev = points.get(j - 1);
-                    path.cubicTo(prev.x + prev.dx, (prev.y + prev.dy), point.x
-                            - point.dx, (point.y - point.dy), point.x, point.y);
+//                    path.cubicTo(prev.x + prev.dx, (prev.y + prev.dy), point.x
+//                            - point.dx, (point.y - point.dy), point.x, point.y);
+                    path.quadTo(prev.x + prev.dx, (prev.y + prev.dy), point.x
+                            - point.dx, (point.y - point.dy));
                 }
 //                Log.e("dx",point.dx+"");
             }
@@ -204,10 +206,12 @@ public class EmotionRainAnimation extends View implements AnimatorUpdateListener
             } else {
                 CPoint tmp = new CPoint(0, 0);
                 if (random.nextInt(100) % 2 == 0) {
-                    tmp.x = point.x + random.nextInt(range);
+                    tmp.x = point.x + 30*random.nextInt(range);
                 } else {
-                    tmp.x = point.x - random.nextInt(range);
+                    tmp.x = point.x - 30*random.nextInt(range);
                 }
+
+                Log.d("pointx",tmp.x+"");
                 tmp.y = (int) (height / (float) quadCount * i);
                 points.add(tmp);
             }
